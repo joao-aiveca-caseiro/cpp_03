@@ -6,7 +6,7 @@
 /*   By: jaiveca- <jaiveca-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 19:01:20 by jaiveca-          #+#    #+#             */
-/*   Updated: 2023/07/10 22:33:53 by jaiveca-         ###   ########.fr       */
+/*   Updated: 2023/07/11 17:25:52 by jaiveca-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ ClapTrap	&ClapTrap::operator=(const ClapTrap &clap)
 	return (*this);
 }
 
-void	ClapTrap::attack(const std::string& target)
+void	ClapTrap::attack(const std::string &target)
 {
 	if (this->_energy > 0 && this->_hp > 0)
 	{

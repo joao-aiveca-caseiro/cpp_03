@@ -6,7 +6,7 @@
 /*   By: jaiveca- <jaiveca-@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/07 19:01:24 by jaiveca-          #+#    #+#             */
-/*   Updated: 2023/07/10 17:11:17 by jaiveca-         ###   ########.fr       */
+/*   Updated: 2023/07/11 17:25:44 by jaiveca-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ class ClapTrap
 		~ClapTrap();
 		
 		ClapTrap	&operator=(const ClapTrap &clap);
-		void		attack(const std::string& target);
+		void		attack(const std::string &target);
 		void		takeDamage(unsigned int amount);
 		void		beRepaired(unsigned int amount);
 
